@@ -1,13 +1,26 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@700&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&family=Rajdhani:wght@300&display=swap');
+    </style>
+    
+
 <!-- src/app/app.component.html -->
 <div class="bg-cover bg-center" style="background-image: url('../../assets/hero-section.jpg');">
   <header class="backdrop-filter py-4">
     <div class="container mx-auto flex justify-between items-center">
-      <a href="/" class="text-3xl text-black font-semibold ml-5">Daily Tiffin</a>
+      <a href="/" class="text-3xl text-black font-bold ml-5" style="font-family: 'Phudu', cursive;">Daily Tiffin</a>
+
       <nav class="space-x-4 mr-4">
-        <a href="/" class="text-white hover:underline">Home</a>
-        <a href="/menu" class="text-white hover:underline">Menu</a>
-        <a href="/about" class="text-white hover:underline">About</a>
-        <a href="/contact" class="text-white hover:underline">Contact</a>
+        <a href="/" class="text-black hover:underline text-lg font-semibold" style="font-family: 'Phudu', cursive;
+        font-family: 'Rajdhani', sans-serif;">Home</a>
+        <a href="/menu" class="text-black hover:underline  font-semibold" style="font-family: 'Phudu', cursive;
+        font-family: 'Rajdhani', sans-serif;">Menu</a>
+        <a href="/about" class="text-black hover:underline  font-semibold"  style="font-family: 'Phudu', cursive;
+        font-family: 'Rajdhani', sans-serif;">About</a>
+        <a href="/contact" class="text-black hover:underline  font-semibold"  style="font-family: 'Phudu', cursive;
+        font-family: 'Rajdhani', sans-serif;">Contact</a>
       </nav>
     </div>
   </header>
@@ -18,10 +31,13 @@
     <section class="h-screen relative">
       <!-- Set the div to cover the entire screen with responsive dimensions -->
       <div class="w-full h-full flex flex-col justify-center items-center relative z-10 text-center">
-        <h1 class="text-5xl text-white font-semibold mb-4">Delicious Tiffin Delivered to You</h1>
-        <p class="text-xl text-white mb-8">Experience homemade goodness with every meal.</p>
-        <a (click)="scrollToMenu()" class="bg-orange-500 text-slate-100 py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">Explore Menu</a>
+        <h1 class="text-5xl text-black font-semibold mb-4">Delicious Tiffin Delivered to You</h1>
+        <p class="text-xl text-black mb-8">Experience homemade goodness with every meal.</p>
+        <a (click)="scrollToMenu()" class="bg-orange-500 text-slate-100 py-3 px-6 rounded-full hover:bg-blue-400 transition duration-300 ease-in-out">Explore Menu</a>
       </div>
     </section>
   </main>
 </div>
+
+
+
