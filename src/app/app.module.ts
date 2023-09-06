@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReviewComponent } from './review/review.component';
 import { FooterComponent } from './footer/footer.component';
+import { WhyUsComponent } from './why-us/why-us.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     ContactComponent,
     ReviewComponent,
-    FooterComponent
+    FooterComponent,
+    WhyUsComponent
   ],
   imports: [
     BrowserModule,
