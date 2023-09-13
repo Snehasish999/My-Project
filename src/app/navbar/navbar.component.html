@@ -1,40 +1,42 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@700&display=swap');
-  </style>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&family=Rajdhani:wght@300&display=swap');
-    </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Phudu:wght@700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&family=Rajdhani:wght@300&display=swap">
+</head>
+<body>
+  <div class="bg-cover bg-no-repeat" style="background-image: url('../../assets/bg-11.jpg');">
+    <nav class="fixed top-0 flex w-full flex-wrap items-center justify-between bg-opacity-0 bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:py-4">
+      <div class="container mx-auto flex justify-center">
+        <ul class="flex space-x-4">
+          <li><a href="#" class="text-white text-lg">Home</a></li>
+          <li><a href="#" class="text-white text-lg">Food Box</a></li>
+          <li><a href="#" class="text-white text-lg">Tiffin Meal Plan</a></li>
+          <li><img src="src\assets\bg-2.jpeg" alt="Your Image" class="h-32 w-32"></li>
+          <li><a href="#" class="text-white text-lg">About Us</a></li>
+          <li><a href="#" class="text-white text-lg">Contact Us</a></li>
+          <li><a href="#" class="text-white text-lg">Review</a></li>
+          <li><a href="#" class="text-white text-lg">Legal</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  
+    
     
 
-<!-- src/app/app.component.html -->
-<div class="bg-contain bg-no-repeat bg-left" style="background-image: url('../../assets/bg-2.jpeg');">
-  <header class="backdrop-filter py-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <a href="/" class="text-3xl text-gray-800 font-bold ml-5" style="font-family: 'Phudu', cursive;">Family Kitchen</a>
-
-      <nav class="space-x-4 mr-4">
-        <a href="/" class="text-gray-800 hover:underline hover:  text-2xl" style="font-family: 'Phudu', cursive;
-        font-family: 'Rajdhani', sans-serif;">Home</a>
-        <a href="/menu" class="text-gray-800 hover:underline  text-2xl" style="font-family: 'Phudu', cursive;
-        font-family: 'Rajdhani', sans-serif;">Menu</a>
-        <a href="/about" class="text-gray-800 hover:underline  text-2xl"  style="font-family: 'Phudu', cursive;
-        font-family: 'Rajdhani', sans-serif;">About</a>
-        <a href="/contact" class="text-gray-800 hover:underline  text-2xl"  style="font-family: 'Phudu', cursive;
-        font-family: 'Rajdhani', sans-serif;">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- src/app/app.component.html -->
-  <main>
-    <!-- Hero Section -->
-    <section class="h-screen relative">
-      <!-- Set the div to cover the entire screen with responsive dimensions -->
-      <div class="w-full h-full flex flex-col justify-center items-center relative z-10 text-center">
-        <h1 class="text-7xl text-gray-800 font-semibold mb-4">Delicious Tiffin Delivered to Your Doorsteps</h1>
-        <p class="text-xl text-gray-700 mb-8">Experience homemade goodness with every meal.</p>
-        <a (click)="scrollToMenu()" class="bg-orange-500 text-slate-100 py-3 px-6 rounded-full hover:bg-orange-600  transition duration-300 ease-in-out">Explore Menu</a>
-      </div>
-    </section>
-  </main>
-</div>
+    <main>
+      <section class="h-screen relative">
+        <div class="w-full h-full flex flex-col justify-center items-center relative z-10 text-center">
+          <h1 class="text-7xl text-gray-800 font-semibold mb-4 sm:text-5xl">Delicious Tiffin Delivered to Your Doorsteps</h1>
+          <p class="text-xl text-gray-700 mb-8 sm:text-lg">Experience homemade goodness with every meal.</p>
+          <a href="#" class="bg-orange-500 text-slate-100 py-3 px-6 rounded-full hover:bg-orange-600 transition duration-300 ease-in-out">Explore Menu</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
